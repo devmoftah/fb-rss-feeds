@@ -1,8 +1,6 @@
-import datetime
-from facebook_scraper import get_posts
-from feedgen.feed import FeedGenerator
+import requests
 
-# القائمة الخاصة بالصفحات التي أرسلتها
+# هنا تضع معرّفات الصفحات مباشرة على طول بدون الحاجة لأي موقع أو حساب!
 PAGES = {
     "tech_burning": "100087255284298",
     "abaadnews": "abaadnews",
@@ -12,29 +10,24 @@ PAGES = {
     "SadaMagLY": "SadaMagLY"
 }
 
-for page_name, page_id in PAGES.items():
-    fg = FeedGenerator()
-    fg.id(f'https://facebook.com/{page_id}')
-    fg.title(f'Facebook Feed - {page_name}')
-    fg.link(href=f'https://facebook.com/{page_id}', rel='alternate')
-    fg.description(f'Latest posts from {page_name}')
-
-    try:
-        # جلب آخر 5 منشورات من الصفحة
-        for post in get_posts(page_id, pages=1):
-            fe = fg.add_entry()
-            fe.id(post['post_url'])
-            fe.title(post['text'][:50] + '...' if post['text'] else 'New Post')
-            fe.link(href=post['post_url'])
-            fe.description(post['text'] if post['text'] else 'Image/Video Content')
-            # ضبط وقت النشر
-            if post['time']:
-                fe.pubDate(post['time'].replace(tzinfo=datetime.timezone.utc))
+def update_feeds():
+    for file_name, page_id in PAGES.items():
+        try:
+            print(f"جاري جلب وتحديث صفحة: {file_name}")
+            
+            # الكود يقوم بتركيب الرابط وجلب الـ RSS فوراً وتلقائياً
+            url = f"https://wtf.roflcopter.fr/rss-bridge/?action=display&bridge=Facebook&u={page_id}&format=Atom"
+            
+            response = requests.get(url, timeout=20)
+            if response.status_code == 200:
+                # حفظ الملف في مستودع جيت هب الخاص بك
+                with open(f"{file_name}.xml", "wb") as f:
+                    f.write(response.content)
+                print(f"✅ تم التحديث بنجاح")
             else:
-                fe.pubDate(datetime.datetime.now(datetime.timezone.utc))
-        
-        # حفظ الملف بصيغة RSS XML
-        fg.rss_file(f'{page_name}.xml')
-        print(f"Successfully generated RSS for {page_name}")
-    except Exception as e:
-        print(f"Error fetching {page_name}: {e}")
+                print(f"❌ فشل الجلب من فيسبوك، رمز الخطأ: {response.status_code}")
+        except Exception as e:
+            print(f"❌ خطأ تقني أثناء التحديث: {e}")
+
+if __name__ == "__main__":
+    update_feeds()
