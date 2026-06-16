@@ -1,0 +1,33 @@
+name: Update Facebook RSS Every 5 Minutes
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # تشغيل تلقائي كل 5 دقائق
+  workflow_dispatch: # للتشغيل اليدوي عند الحاجة
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install facebook-scraper feedgen
+
+    - name: Run script
+      run: python fetch_fb.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add *.xml
+        git commit -m "Automated RSS Update" || exit 0
+        git push
