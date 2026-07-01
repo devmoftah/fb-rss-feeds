@@ -6,15 +6,15 @@
   <icon>https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico</icon>
   <logo>https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico</logo>
   <id>http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=Laamnetwork&amp;format=Atom</id>
-  <updated>2026-06-30T23:39:17+00:00</updated>
+  <updated>2026-07-01T01:56:16+00:00</updated>
   <author>
     <name>RSS-Bridge</name>
   </author>
   <entry>
-    <title type="html">Bridge returned error 0! (20634)</title>
-    <published>2026-06-30T23:39:17+00:00</published>
-    <updated>2026-06-30T23:39:17+00:00</updated>
-    <id>urn:sha1:fa092327d370fc2c1cc8fc3bae9ec9237c9245d3</id>
+    <title type="html">Bridge returned error 0! (20635)</title>
+    <published>2026-07-01T01:56:16+00:00</published>
+    <updated>2026-07-01T01:56:16+00:00</updated>
+    <id>urn:sha1:374368b3f283926074fbfabc1a236b74b64f2ec5</id>
     <link rel="alternate" type="text/html" href="http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=Laamnetwork&amp;format=Atom"/>
     <content type="html">
 &lt;div class="error"&gt;
