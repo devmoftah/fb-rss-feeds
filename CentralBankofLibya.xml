@@ -6,14 +6,14 @@
   <icon>https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico</icon>
   <logo>https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico</logo>
   <id>http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=CentralBankofLibya&amp;format=Atom</id>
-  <updated>2026-07-06T09:44:06+00:00</updated>
+  <updated>2026-07-06T13:32:47+00:00</updated>
   <author>
     <name>RSS-Bridge</name>
   </author>
   <entry>
     <title type="html">Bridge returned error 0! (20640)</title>
-    <published>2026-07-06T09:44:06+00:00</published>
-    <updated>2026-07-06T09:44:06+00:00</updated>
+    <published>2026-07-06T13:32:47+00:00</published>
+    <updated>2026-07-06T13:32:47+00:00</updated>
     <id>urn:sha1:9a33729a46168b5b425f19dd80fc975f7f9f2389</id>
     <link rel="alternate" type="text/html" href="http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=CentralBankofLibya&amp;format=Atom"/>
     <content type="html">
@@ -114,7 +114,7 @@
         &lt;strong&gt;OS:&lt;/strong&gt; Linux    &lt;/div&gt;
 
     &lt;div&gt;
-        &lt;strong&gt;PHP:&lt;/strong&gt; 8.4.21    &lt;/div&gt;
+        &lt;strong&gt;PHP:&lt;/strong&gt; 8.4.23    &lt;/div&gt;
 
     &lt;br&gt;
 
@@ -126,7 +126,7 @@
     &lt;button&gt;Find similar bugs&lt;/button&gt;
 &lt;/a&gt;
 
-&lt;a href="https://github.com/RSS-Bridge/rss-bridge/issues/new?title=Facebook+Bridge+%7C+Main+Site+failed+with%3A+Unable+to+find+anything+useful+in+https%3A%2F%2Fwww.facebook.com%2FCentralBankofLibya%2Fposts%3F_fb_noscript%3D1&amp;body=%60%60%60%0AException%3A+Unable+to+find+anything+useful+in+https%3A%2F%2Fwww.facebook.com%2FCentralBankofLibya%2Fposts%3F_fb_noscript%3D1+in+bridges%2FFacebookBridge.php+line+580%0A%0Aindex.php%2873%29%3A+RssBridge-%3Emain%28%29%0Alib%2FRssBridge.php%2839%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+BasicAuthMiddleware-%3E__invoke%28%29%0Amiddlewares%2FBasicAuthMiddleware.php%2813%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+CacheMiddleware-%3E__invoke%28%29%0Amiddlewares%2FCacheMiddleware.php%2844%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+ExceptionMiddleware-%3E__invoke%28%29%0Amiddlewares%2FExceptionMiddleware.php%2817%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+SecurityMiddleware-%3E__invoke%28%29%0Amiddlewares%2FSecurityMiddleware.php%2819%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+MaintenanceMiddleware-%3E__invoke%28%29%0Amiddlewares%2FMaintenanceMiddleware.php%2810%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+TokenAuthenticationMiddleware-%3E__invoke%28%29%0Amiddlewares%2FTokenAuthenticationMiddleware.php%2810%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A33%7D%28%29%0Alib%2FRssBridge.php%2834%29%3A+DisplayAction-%3E__invoke%28%29%0Aactions%2FDisplayAction.php%2854%29%3A+DisplayAction-%3EcreateResponse%28%29%0Aactions%2FDisplayAction.php%2889%29%3A+FacebookBridge-%3EcollectData%28%29%0Abridges%2FFacebookBridge.php%28154%29%3A+FacebookBridge-%3EcollectUserData%28%29%0Abridges%2FFacebookBridge.php%28580%29%0A%0AQuery+string%3A+action%3Ddisplay%26bridge%3DFacebook%26u%3DCentralBankofLibya%26format%3DAtom%0AVersion%3A+2025-08-05%0AOs%3A+Linux%0APHP+version%3A+8.4.21%0A%60%60%60%0AMaintainer%3A+%40No+maintainer&amp;labels=Bridge-Broken&amp;assignee=N" title="After clicking this button you can review the issue before submitting it"&gt;
+&lt;a href="https://github.com/RSS-Bridge/rss-bridge/issues/new?title=Facebook+Bridge+%7C+Main+Site+failed+with%3A+Unable+to+find+anything+useful+in+https%3A%2F%2Fwww.facebook.com%2FCentralBankofLibya%2Fposts%3F_fb_noscript%3D1&amp;body=%60%60%60%0AException%3A+Unable+to+find+anything+useful+in+https%3A%2F%2Fwww.facebook.com%2FCentralBankofLibya%2Fposts%3F_fb_noscript%3D1+in+bridges%2FFacebookBridge.php+line+580%0A%0Aindex.php%2873%29%3A+RssBridge-%3Emain%28%29%0Alib%2FRssBridge.php%2839%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+BasicAuthMiddleware-%3E__invoke%28%29%0Amiddlewares%2FBasicAuthMiddleware.php%2813%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+CacheMiddleware-%3E__invoke%28%29%0Amiddlewares%2FCacheMiddleware.php%2844%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+ExceptionMiddleware-%3E__invoke%28%29%0Amiddlewares%2FExceptionMiddleware.php%2817%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+SecurityMiddleware-%3E__invoke%28%29%0Amiddlewares%2FSecurityMiddleware.php%2819%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+MaintenanceMiddleware-%3E__invoke%28%29%0Amiddlewares%2FMaintenanceMiddleware.php%2810%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A37%7D%28%29%0Alib%2FRssBridge.php%2837%29%3A+TokenAuthenticationMiddleware-%3E__invoke%28%29%0Amiddlewares%2FTokenAuthenticationMiddleware.php%2810%29%3A+RssBridge-%3E%7Bclosure%3ARssBridge%3A%3Amain%28%29%3A33%7D%28%29%0Alib%2FRssBridge.php%2834%29%3A+DisplayAction-%3E__invoke%28%29%0Aactions%2FDisplayAction.php%2854%29%3A+DisplayAction-%3EcreateResponse%28%29%0Aactions%2FDisplayAction.php%2889%29%3A+FacebookBridge-%3EcollectData%28%29%0Abridges%2FFacebookBridge.php%28154%29%3A+FacebookBridge-%3EcollectUserData%28%29%0Abridges%2FFacebookBridge.php%28580%29%0A%0AQuery+string%3A+action%3Ddisplay%26bridge%3DFacebook%26u%3DCentralBankofLibya%26format%3DAtom%0AVersion%3A+2025-08-05%0AOs%3A+Linux%0APHP+version%3A+8.4.23%0A%60%60%60%0AMaintainer%3A+%40No+maintainer&amp;labels=Bridge-Broken&amp;assignee=N" title="After clicking this button you can review the issue before submitting it"&gt;
     &lt;button&gt;Create GitHub Issue&lt;/button&gt;
 &lt;/a&gt;
 
