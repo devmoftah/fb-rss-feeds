@@ -6,15 +6,15 @@
   <icon>https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico</icon>
   <logo>https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico</logo>
   <id>http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=abaadnews&amp;format=Atom</id>
-  <updated>2026-08-08T23:39:02+00:00</updated>
+  <updated>2026-08-09T02:22:12+00:00</updated>
   <author>
     <name>RSS-Bridge</name>
   </author>
   <entry>
-    <title type="html">Bridge returned error 400! (20673)</title>
-    <published>2026-08-08T23:39:02+00:00</published>
-    <updated>2026-08-08T23:39:02+00:00</updated>
-    <id>urn:sha1:0f803b5dd8a9b9cb5250c4b1045cfb5a302559c7</id>
+    <title type="html">Bridge returned error 400! (20674)</title>
+    <published>2026-08-09T02:22:12+00:00</published>
+    <updated>2026-08-09T02:22:12+00:00</updated>
+    <id>urn:sha1:55fbb923bbaba184a3e1ec7f7dc2616b80a6bef4</id>
     <link rel="alternate" type="text/html" href="http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=abaadnews&amp;format=Atom"/>
     <content type="html">
 &lt;div class="error"&gt;
