@@ -6,15 +6,15 @@
   <icon>https://static.xx.fbcdn.net/rsrc.php/y1/r/ay1hV6OlegS.ico</icon>
   <logo>https://static.xx.fbcdn.net/rsrc.php/y1/r/ay1hV6OlegS.ico</logo>
   <id>http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=CentralBankofLibya&amp;format=Atom</id>
-  <updated>2026-10-24T23:39:53+00:00</updated>
+  <updated>2026-10-25T01:39:10+00:00</updated>
   <author>
     <name>RSS-Bridge</name>
   </author>
   <entry>
-    <title type="html">Bridge returned error 500! (20750)</title>
-    <published>2026-10-24T23:39:53+00:00</published>
-    <updated>2026-10-24T23:39:53+00:00</updated>
-    <id>urn:sha1:75849e917b4225cf6bc2df20f0c506095a37771b</id>
+    <title type="html">Bridge returned error 500! (20751)</title>
+    <published>2026-10-25T01:39:10+00:00</published>
+    <updated>2026-10-25T01:39:10+00:00</updated>
+    <id>urn:sha1:58fcf5a7700546aa62be1532989884e800b364b7</id>
     <link rel="alternate" type="text/html" href="http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=CentralBankofLibya&amp;format=Atom"/>
     <content type="html">
 &lt;div class="error"&gt;
