@@ -6,15 +6,15 @@
   <icon>https://static.xx.fbcdn.net/rsrc.php/y1/r/ay1hV6OlegS.ico</icon>
   <logo>https://static.xx.fbcdn.net/rsrc.php/y1/r/ay1hV6OlegS.ico</logo>
   <id>http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=Laamnetwork&amp;format=Atom</id>
-  <updated>2026-11-27T22:59:36+00:00</updated>
+  <updated>2026-11-28T04:39:53+00:00</updated>
   <author>
     <name>RSS-Bridge</name>
   </author>
   <entry>
-    <title type="html">Bridge returned error 500! (20784)</title>
-    <published>2026-11-27T22:59:36+00:00</published>
-    <updated>2026-11-27T22:59:36+00:00</updated>
-    <id>urn:sha1:13965570e90e0f9cb7efa1270955fd9e2c8af072</id>
+    <title type="html">Bridge returned error 500! (20785)</title>
+    <published>2026-11-28T04:39:53+00:00</published>
+    <updated>2026-11-28T04:39:53+00:00</updated>
+    <id>urn:sha1:0cd41c604095b7745de1e753e82f03e1067c294d</id>
     <link rel="alternate" type="text/html" href="http://ws.rofl.lan:8118/rss-bridge/?action=display&amp;bridge=Facebook&amp;u=Laamnetwork&amp;format=Atom"/>
     <content type="html">
 &lt;div class="error"&gt;
